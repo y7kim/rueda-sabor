@@ -7,7 +7,7 @@
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "incremental": true,
-    "keyofStringsOnly": true,
+    //"keyofStringsOnly": true,
     "module": "ES2020",
     "moduleResolution": "node",
     "removeComments": true,
@@ -17,5 +17,9 @@
     "strict": true,
     "target": "ES2019"
   },
-  "exclude": ["**/node_modules/*", "**/dist/*", "scripts/*"]
+  "exclude": [
+    "**/node_modules/*",
+    "**/dist/*",
+    "scripts/*"
+  ]
 }

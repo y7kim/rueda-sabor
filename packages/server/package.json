@@ -1,8 +1,8 @@
 {
-  "name": "@nest-react/server",
+  "name": "@rueda-sabor/server",
   "version": "1.0.0",
-  "description": "Backend of the Nest + React boilerplate",
-  "author": "Paul Landázuri",
+  "description": "Backend of Rueda Sabor",
+  "author": "Rick Kim",
   "license": "LGPL-3.0-or-later",
   "main": "src/main.ts",
   "scripts": {
@@ -25,11 +25,13 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "@nest-react/domain": "^1.0.0",
-    "@nest-react/lib": "^1.0.0",
     "@nestjs/common": "^10.4.16",
     "@nestjs/core": "^9.0.11",
     "@nestjs/platform-express": "^9.0.11",
+    "@nestjs/platform-socket.io": "^10.0.0",
+    "@nestjs/websockets": "^10.0.0",
+    "@rueda-sabor/domain": "^1.0.0",
+    "@rueda-sabor/lib": "^1.0.0",
     "dotenv": "^16.0.1",
     "joi": "^17.6.0",
     "reflect-metadata": "^0.1.13",

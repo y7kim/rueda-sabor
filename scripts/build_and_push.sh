@@ -16,7 +16,7 @@ source $DIR/generate_version.sh
 
 LOCAL_VERSION="${VERSION:-latest}"
 
-DOCKER_IMAGE="docker.pkg.github.com/landazuripaul/nest-react/nest-react-$PACKAGE:$LOCAL_VERSION"
+DOCKER_IMAGE="docker.pkg.github.com/landazuripaul/rueda-sabor/rueda-sabor-$PACKAGE:$LOCAL_VERSION"
 
 printf "> Building the Docker image: $DOCKER_IMAGE ...\n"
 

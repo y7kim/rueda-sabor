@@ -34,7 +34,7 @@ export default ({
   const baseConfig = defineConfig({
     define: {
       // eslint-disable-next-line @typescript-eslint/naming-convention
-      __REQUIRED_SERVER_VERSION__: `'${peerDependencies['@nest-react/server']}'`,
+      __REQUIRED_SERVER_VERSION__: `'${peerDependencies['@rueda-sabor/server']}'`,
     },
     resolve: {
       alias: {

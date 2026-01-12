@@ -1,15 +1,15 @@
 {
-  "name": "nest-react",
+  "name": "rueda-sabor",
   "version": "1.0.0",
-  "author": "Paul Landázuri",
+  "author": "Rick Kim",
   "description": "Simple boilerplate for a Nest + React project",
-  "homepage": "https://github.com/LandazuriPaul/nest-react#readme",
+  "homepage": "https://github.com/LandazuriPaul/rueda-sabor#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LandazuriPaul/nest-react.git"
+    "url": "git+https://github.com/LandazuriPaul/rueda-sabor.git"
   },
   "bugs": {
-    "url": "https://github.com/LandazuriPaul/nest-react/issues"
+    "url": "https://github.com/LandazuriPaul/rueda-sabor/issues"
   },
   "directories": {
     "doc": "docs"
@@ -28,14 +28,18 @@
   ],
   "scripts": {
     "generate:version": "./scripts/generate_version.sh",
-    "start:domain": "yarn workspace @nest-react/domain start:dev",
-    "start:lib": "yarn workspace @nest-react/lib start:dev",
+    "start:domain": "yarn workspace @rueda-sabor/domain start:dev",
+    "start:lib": "yarn workspace @rueda-sabor/lib start:dev",
     "start:common": "(yarn start:domain & yarn start:lib)",
-    "build:domain": "yarn workspace @nest-react/domain build",
-    "build:lib": "yarn workspace @nest-react/lib build",
+    "build:domain": "yarn workspace @rueda-sabor/domain build",
+    "build:lib": "yarn workspace @rueda-sabor/lib build",
     "build:common": "yarn build:domain && yarn build:lib",
     "build-push:server": "PACKAGE=server ./scripts/build_and_push.sh",
     "build-push:client": "PACKAGE=client ./scripts/build_and_push.sh",
     "lint": "yarn workspaces run lint"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "devDependencies": {
+    "@types/leaflet": "^1.9.21"
   }
 }

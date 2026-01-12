@@ -1,9 +1,9 @@
 {
-  "name": "@nest-react/client-vite",
+  "name": "@rueda-sabor/client-vite",
   "version": "1.0.0",
   "description": "Client boilerplate built with Vite, using React, communicating with a Nest server",
   "main": "src/index.tsx",
-  "author": "Paul Landázuri",
+  "author": "Rick Kim",
   "license": "LGPL-3.0-or-later",
   "scripts": {
     "start:dev": "vite",
@@ -14,15 +14,18 @@
     "check-types": "tsc"
   },
   "dependencies": {
-    "@nest-react/domain": "^1.0.0",
-    "@nest-react/lib": "^1.0.0",
+    "@rueda-sabor/domain": "^1.0.0",
+    "@rueda-sabor/lib": "^1.0.0",
     "debug": "^4.3.4",
+    "leaflet": "1.9.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "semver": "^7.5.2"
+    "react-leaflet": "4.2.1",
+    "semver": "^7.5.2",
+    "socket.io-client": "^4.8.3"
   },
   "peerDependencies": {
-    "@nest-react/server": "1.0.0"
+    "@rueda-sabor/server": "1.0.0"
   },
   "devDependencies": {
     "@types/debug": "^4.1.7",

@@ -1,6 +1,6 @@
 import debug from 'debug';
 
-const LOGGER_PREFIX = 'nest-react';
+const LOGGER_PREFIX = 'rueda-sabor';
 
 const debugInfo = debug(`${LOGGER_PREFIX}:info`);
 debugInfo.enabled = true;
